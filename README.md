@@ -61,7 +61,7 @@ When the user inputs the current speed through the keyboard, the Picamera2 captu
 
 The speed camera detection in the demo video is quite accurate, but the speed sign detection accuracy is lacking. This is because the dataset I collected mainly includes images with one camera and one or two speed signs. In other words, all the photos contain the camera object. But there is a limited variety of speed sign data, primarily 30-100 km/h signs, leading to an imbalance in the training labels. To enhance the model's accuracy, especially for speed sign detection, I believe that adding more data, particularly images with a wider range of speed signs, will be beneficial.
 
-` `Furthermore, the email notification function was not accurately implemented as originally designed. I plan to revisit and improve this feature. Instead of using the Google app password for authentication, I intend to explore alternative methods such as secondary authentication or integrating with a different mail server to ensure reliable email functionality.
+Furthermore, the email notification function was not accurately implemented as originally designed. I plan to revisit and improve this feature. Instead of using the Google app password for authentication, I intend to explore alternative methods such as secondary authentication or integrating with a different mail server to ensure reliable email functionality.
 
-` `Additionally, I plan to integrate a device such as an LED into the system to provide users with a more noticeable visual warning when speeding. This will complement the LCD and help attract the user's attention more effectively when the speed limit is exceeded
+Additionally, I plan to integrate a device such as an LED into the system to provide users with a more noticeable visual warning when speeding. This will complement the LCD and help attract the user's attention more effectively when the speed limit is exceeded
 
